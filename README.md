@@ -10,11 +10,11 @@
 
 ### Functionality
 
-##### General Functionality:
+#### General Functionality:
 
 - Coming soon...
 
-##### General Room Breakdown:
+#### General Room Breakdown:
 
 - Sign in & out / Join / Recover
     - Username
@@ -32,7 +32,7 @@
 
 
 
-#### -CRA Default ReadMe Text-
+# -CRA Default ReadMe Text-
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
