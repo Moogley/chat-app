@@ -1,3 +1,39 @@
+# Q-Chat
+> Q-Chat is an intranet chatroom made for office employee's that need one large chat room to discuss issues in throughout the day.
+
+### Features
+
+- Communal chatrooms for full teams to engage eachother through problem-solving and strategizing
+- Private messaging between users with the ability to add additional users to the private chat
+- Dedicated message rooms for certain groups like management and dedicated teams, users cannot be added to these rooms without specific permissions
+- Bulletin boards for each room to share important updates and pin messages
+
+### Functionality
+
+##### General Functionality:
+
+- Coming soon...
+
+##### General Room Breakdown:
+
+- Sign in & out / Join / Recover
+    - Username
+    - Password
+
+- Chatroom / PM
+    - Text display
+    - Text entry field
+    - Included users & user status (online, away, busy)
+    - List of rooms
+
+### Requirements
+
+- Coming soon...
+
+
+
+#### -CRA Default ReadMe Text-
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
