@@ -4,8 +4,6 @@ import Chat from './chat';
 import './App.css';
 
 
-
-
 function App() {
   
   

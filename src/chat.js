@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import {v4 as uuidv4} from 'uuid'
+// import {v4 as uuidv4} from 'uuid' - Switched to using current date/time for message id's
 import './App.css';
 
 
@@ -26,11 +26,14 @@ export default function Chat() {
        
        function handleAddChat(e) {
          const msg = msgRef.current.value
+         var dt = new Date(Date.now())
+         var msgTime = new Date(dt.getTime());
          if (msg === '') return
          msgWindow(prevChat => {
-           return[...prevChat, { user: 'sender', id: uuidv4(), msg: msg}]
+           return[...prevChat, { user: 'sender', id: Date.now(), msg: msg}]
          })
          msgRef.current.value = null
+         console.log(msg + ': ' + msgTime)
        }
 
        function clearChat() {
@@ -56,10 +59,13 @@ export default function Chat() {
             })}
           </ul>
         )
+        
       }       
-
+      
     return (
         <div id="ChatRoom">
+            <h1>Chatroom Name Placeholder</h1>
+            <hr />
             <MessageList />
             <input ref={msgRef} type="text" />
             <button onClick={handleAddChat}>Send Message</button>
